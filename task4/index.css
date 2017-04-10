@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#box_1{
+    width: 400px;
+    height: 200px;
+    background-color: #ccc;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    z-index: 0;
+}
+#fan_1{
+    width: 50px;
+    height: 50px;
+    border-radius: 0 0 50px 0 ;
+    background-color: #fc0;
+    /*position: absolute;*/
+    z-index: 1;
+}
+#fan_2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px 0 0 0;
+    background-color: #fc0; 
+    position: absolute;
+    left: 350px;
+    top: 150px;  
+    z-index: 1;
+}
